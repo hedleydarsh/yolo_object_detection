@@ -1,0 +1,32 @@
+# Ignorar arquivos relacionados ao YOLOv8
+
+# Modelos YOLO baixados
+yolov8*.pt
+yolo11*.pt
+
+
+# Diretórios de cache e logs do YOLO
+runs/
+logs/
+
+# Arquivos temporários do treinamento
+*.cache
+*.ckpt
+
+# Arquivos do PyTorch que podem ser gerados
+*.pth
+*.pkl
+
+# Modelos gerados
+models/
+checkpoints/
+
+# Ignorar arquivos de saída do YOLO
+output/
+captures/
+
+# Configurações do ambiente virtual
+venv/
+.env
+.DS_Store
+__pycache__/
